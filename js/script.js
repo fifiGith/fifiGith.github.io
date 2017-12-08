@@ -278,7 +278,7 @@
   }
 
   function ip_callback() {
-    $.getJSON("http://ipinfo.io",function(data) {
+    $.getJSON("https://api.ipify.org?format=json",function(data) {
       document.getElementById("ip").value = data.ip;
       return data.ip; })
   }
