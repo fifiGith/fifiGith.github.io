@@ -1,0 +1,27 @@
+.myname {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.container {
+	margin-top: 35px;
+}
+
+#hhead {
+	padding: 0;
+}
+
+.form-control {
+	border-radius: 0px;
+}
+
+.btn {
+	display: block;
+	margin: auto;
+	border-radius: 0px;
+	margin-bottom: 15px;
+}
+
+.btn:hover {
+	opacity: 0.8;
+}
